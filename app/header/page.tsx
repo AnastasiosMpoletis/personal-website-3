@@ -1,14 +1,14 @@
 import styles from "./page.module.css";
-import MenuButton from "./components/menuButton/MenuButton";
-import MenuLogo from "./components/menuLogo/MenuLogo";
-import MenuName from "./components/menuName/MenuName";
+import HeaderMenuButton from "./components/menuButton/MenuButton";
+import HeaderLogo from "./components/headerLogo/HeaderLogo";
+import HeaderName from "./components/headerName/HeaderName";
 
 const Header: React.FC = () => {
   return (
     <header className={styles.header}>
-      <MenuButton />
-      <MenuLogo />
-      <MenuName />
+      <HeaderMenuButton />
+      <HeaderLogo />
+      <HeaderName />
     </header>
   );
 }

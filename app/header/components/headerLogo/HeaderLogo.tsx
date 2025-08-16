@@ -1,11 +1,11 @@
-import MenuLink from "../menuLink/MenuLink";
+import HeaderLink from "../headerLink/HeaderLink";
 import Image from "next/image";
-import styles from "./menuLogo.module.css";
-import logo from "@/assets/ab-logo.png";
+import styles from "./headerLogo.module.css";
+import logo from "@/app/favicon.ico";
 
-const MenuLogo: React.FC = () => {
+const HeaderLogo: React.FC = () => {
   return (
-    <MenuLink>
+    <HeaderLink>
       <Image
         className={styles.logo}
         src={logo}
@@ -15,8 +15,8 @@ const MenuLogo: React.FC = () => {
         priority
         loading="eager"
       />
-    </MenuLink>
+    </HeaderLink>
   );
 }
 
-export default MenuLogo;
+export default HeaderLogo;

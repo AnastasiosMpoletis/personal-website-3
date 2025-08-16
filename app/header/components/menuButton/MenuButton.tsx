@@ -1,10 +1,10 @@
 import { FiAlignJustify } from "react-icons/fi";
-import MenuLink from "../menuLink/MenuLink";
+import HeaderLink from "../headerLink/HeaderLink";
 import styles from "./menuButton.module.css";
 
-const MenuButton: React.FC = () => {
+const HeaderMenuButton: React.FC = () => {
   return (
-    <MenuLink>
+    <HeaderLink>
       <div className={styles["menu-button-background"]}>
         {/* //TODO ANBOL add motion */}
         <FiAlignJustify
@@ -12,8 +12,8 @@ const MenuButton: React.FC = () => {
           size="24"
         />
       </div>
-    </MenuLink>
+    </HeaderLink>
   );
 }
 
-export default MenuButton;
+export default HeaderMenuButton;

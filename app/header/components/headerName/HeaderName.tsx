@@ -1,7 +1,7 @@
 import HeaderLink from "../headerLink/HeaderLink";
-import styles from "./menuName.module.css"
+import styles from "./headerName.module.css"
 
-const MenuName: React.FC = () => {
+const HeaderName: React.FC = () => {
   return (
     <HeaderLink>
       <h1 className={styles["header-name"]}>Anastasios Boletis</h1>
@@ -9,4 +9,4 @@ const MenuName: React.FC = () => {
   );
 }
 
-export default MenuName;
+export default HeaderName;

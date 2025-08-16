@@ -1,7 +1,7 @@
 import Link from "next/link";
-import styles from "./menuLink.module.css";
+import styles from "./headerLink.module.css";
 
-const MenuLink: React.FC<{ children: React.ReactNode }> = (props) => {
+const HeaderLink: React.FC<{ children: React.ReactNode }> = (props) => {
   return (
     <Link
       href={'/'}
@@ -12,4 +12,4 @@ const MenuLink: React.FC<{ children: React.ReactNode }> = (props) => {
   );
 }
 
-export default MenuLink
+export default HeaderLink
