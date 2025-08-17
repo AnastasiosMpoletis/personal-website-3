@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./headerLink.module.css";
+import styles from "./HeaderLink.module.css";
 
 const HeaderLink: React.FC<{ children: React.ReactNode }> = (props) => {
   return (

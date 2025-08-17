@@ -1,6 +1,6 @@
 import { FiAlignJustify } from "react-icons/fi";
 import HeaderLink from "../headerLink/HeaderLink";
-import styles from "./menuButton.module.css";
+import styles from "./MenuButton.module.css";
 
 const HeaderMenuButton: React.FC = () => {
   return (

@@ -1,9 +1,9 @@
-import styles from "./page.module.css";
+import styles from "./HeaderPanel.module.css";
 import HeaderMenuButton from "./components/menuButton/MenuButton";
 import HeaderLogo from "./components/headerLogo/HeaderLogo";
 import HeaderName from "./components/headerName/HeaderName";
 
-const Header: React.FC = () => {
+const HeaderPanel: React.FC = () => {
   return (
     <header className={styles.header}>
       <HeaderMenuButton />
@@ -13,4 +13,4 @@ const Header: React.FC = () => {
   );
 }
 
-export default Header;
+export default HeaderPanel;

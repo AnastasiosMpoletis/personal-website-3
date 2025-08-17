@@ -1,5 +1,5 @@
 import HeaderLink from "../headerLink/HeaderLink";
-import styles from "./headerName.module.css"
+import styles from "./HeaderName.module.css"
 
 const HeaderName: React.FC = () => {
   return (

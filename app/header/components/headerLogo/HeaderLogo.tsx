@@ -1,6 +1,6 @@
 import HeaderLink from "../headerLink/HeaderLink";
 import Image from "next/image";
-import styles from "./headerLogo.module.css";
+import styles from "./HeaderLogo.module.css";
 import logo from "@/app/favicon.ico";
 
 const HeaderLogo: React.FC = () => {
