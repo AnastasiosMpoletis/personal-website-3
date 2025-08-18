@@ -1,0 +1,10 @@
+.personal-photo-div {
+  padding: 3rem;
+}
+
+.personal-photo {
+  /* width: auto; */
+  /* height: auto; */
+  margin: auto;
+  display: block;
+}

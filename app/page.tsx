@@ -1,9 +1,10 @@
+import HomePage from "./home/HomePage";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <p>Hello World!</p>
-    </div>
+    <main>
+      <HomePage />
+    </main>
   );
 }
