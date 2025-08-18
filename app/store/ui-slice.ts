@@ -14,7 +14,6 @@ const uiSlice = createSlice({
   initialState,
   reducers: {
     toggle(state) {
-      console.log(state.showMenu);
       state.showMenu = !state.showMenu;
     },
   }

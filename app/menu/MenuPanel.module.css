@@ -2,3 +2,16 @@
   background-color: black;
   opacity: 0.5;
 }
+
+.dialog {
+  min-height: 100vh;
+  border: none;
+}
+
+.nav {
+  padding: 20px;
+}
+
+.nav li {
+  list-style: none;
+}

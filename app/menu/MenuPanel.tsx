@@ -2,19 +2,15 @@
 
 import { useSelector, useDispatch } from 'react-redux';
 import { showMenuSelector } from '@/app/store/ui-slice';
-import { uiActions } from '@/app/store/ui-slice';
 import { useRef, useEffect } from "react";
+import HeaderPanel from '../header/HeaderPanel';
+
 import style from "./MenuPanel.module.css"
 
 const MenuPanel: React.FC = () => {
+  //TODO ANBOL add motion
   const dialogRef = useRef<HTMLDialogElement>(null);
   const showMenuParam = useSelector(showMenuSelector);
-
-  const dispatch = useDispatch();
-
-  function handleToggleMenu() {
-    dispatch(uiActions.toggle());
-  }
 
   useEffect(() => {
     if (showMenuParam) {
@@ -34,8 +30,15 @@ const MenuPanel: React.FC = () => {
 
   return (
     <dialog ref={dialogRef} className={style.dialog}>
-      <p>Menu</p>
-      <button onClick={handleToggleMenu}>Close</button>
+      <HeaderPanel />
+      <nav className={style.nav}>
+        <ul>
+          <li>Page 1</li>
+          <li>Page 2</li>
+          <li>Page 3</li>
+          <li>Page 4</li>
+        </ul>
+      </nav>
     </dialog>
   );
 }
