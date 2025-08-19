@@ -1,0 +1,17 @@
+.home-page-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 15vw;
+  padding: 1rem;
+}
+
+.linked-in {
+  /* background: white; */
+  color: #0077B5;
+}
+
+.github {
+  color: #24292e;
+}
