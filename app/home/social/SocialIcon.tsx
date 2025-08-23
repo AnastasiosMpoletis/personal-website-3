@@ -1,4 +1,3 @@
-import styles from "./SocialIcon.module.css";
 import { ReactNode } from "react";
 
 const SocialIcon: React.FC<{
@@ -6,7 +5,7 @@ const SocialIcon: React.FC<{
   children: ReactNode
 }> = (props) => {
   return (
-    <a href={props.socialLink} target="_blank" className={styles.link}>
+    <a href={props.socialLink} target="_blank">
       {props.children}
     </a>
   );

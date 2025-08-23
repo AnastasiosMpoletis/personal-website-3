@@ -1,9 +1,4 @@
-.personal-photo-div {
-  /* width: 20vw; */
-  /* border-radius: 50%; */
-}
-
 .personal-photo {
-  /* width: 20vw; */
-  
+  width: 100%;
+  height: auto;
 }
